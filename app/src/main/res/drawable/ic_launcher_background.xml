@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp" android:height="108dp"
+    android:viewportWidth="108" android:viewportHeight="108">
+    <!-- 与 App 主色保持一致，背景由桌面按当前图标形状裁切。 -->
+    <path android:fillColor="#2563EB" android:pathData="M0,0L108,0L108,108L0,108Z" />
+</vector>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp" android:height="108dp"
+    android:viewportWidth="108" android:viewportHeight="108">
+    <!-- 车头与扳手都保留在安全区内；透明留白兼容圆形裁切和系统主题图标。 -->
+    <path
+        android:fillColor="#00000000" android:strokeColor="#FFFFFF" android:strokeWidth="3.6"
+        android:strokeLineCap="round" android:strokeLineJoin="round"
+        android:pathData="M33,46L37,35Q38,32 42,32L63,32Q67,32 68,35L72,46M33,46L71,46Q75,46 75,50L75,57Q75,61 71,61L33,61Q29,61 29,57L29,50Q29,46 33,46" />
+    <path
+        android:fillColor="#00000000" android:strokeColor="#FFFFFF" android:strokeWidth="3.6"
+        android:strokeLineCap="round" android:strokeLineJoin="round"
+        android:pathData="M35,53L42,53M62,53L69,53M34,61L34,65Q34,67 36,67L38,67Q40,67 40,65L40,61M64,61L64,65Q64,67 66,67L68,67Q70,67 70,65L70,61" />
+    <path
+        android:fillColor="#00000000" android:strokeColor="#FFFFFF" android:strokeWidth="2.8"
+        android:strokeLineCap="round" android:pathData="M49,56L56,56" />
+    <!-- 扳手沿对角线放在车头外侧，透明间隙在单色主题下也能区分两个符号。 -->
+    <group
+        android:pivotX="13" android:pivotY="16" android:rotation="45"
+        android:scaleX="0.7" android:scaleY="0.7" android:translateX="62" android:translateY="55">
+        <path android:fillColor="#FFFFFF"
+            android:pathData="M10,3C7.6,4.2 6,6.7 6,9.5C6,12.2 7.6,14.3 10,15.2L10,26C10,27.7 11.3,29 13,29C14.7,29 16,27.7 16,26L16,15.2C18.4,14.3 20,12.2 20,9.5C20,6.7 18.4,4.2 16,3L16,9L13,11L10,9Z" />
+    </group>
+</vector>

@@ -1,0 +1,61 @@
+# IDE 与本机系统文件，不随源码共享。
+*.iml
+.idea/
+.DS_Store
+Thumbs.db
+
+# 所有模块的缓存、构建产物和安装包；APK 可能含本机 OCR 凭据。
+.gradle/
+.kotlin/
+build/
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+*.apks
+*.hprof
+*.log
+
+# 本机路径、环境凭据和签名配置；空白示例文件可提交。
+local.properties
+*.local.properties
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+key.properties
+keystore.properties
+signing.properties
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.pem
+*.key
+id_rsa
+id_ed25519
+
+# 真实业务数据与导出文件。Room schema JSON、资源图标和 docs/images 保留。
+*.db
+*.db-*
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+*.preferences_pb
+*.zip
+/databases/
+/datastore/
+/files/
+/images/
+/photos/
+/photo_drafts/
+/backups/
+/exports/
+/private/
+
+# GitHub 仅公开根目录 README，其他 Markdown 文档留在本机。
+*.[mM][dD]
+!/README.md

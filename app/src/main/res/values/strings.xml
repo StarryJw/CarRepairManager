@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">修车记录</string>
+    <string name="nav_home">首页</string>
+    <string name="nav_vehicles">车辆</string>
+    <string name="nav_settings">设置</string>
+    <string name="home_empty_title">暂无到店记录</string>
+    <string name="home_empty_description">先新增车辆，再在车辆详情中记录服务。</string>
+    <string name="vehicles_empty_title">暂无车辆</string>
+    <string name="vehicles_empty_description">点击“新增车辆”建立档案，或调整筛选条件。</string>
+    <string name="settings_local_title">本地优先</string>
+    <string name="settings_local_description">默认本地保存。主动上传或开启自动备份后，数据与照片上传至你的 WebDAV。主动使用车牌识别时，本次车牌照片上传至百度智能云。</string>
+</resources>
